@@ -102,7 +102,7 @@
     <div class="navi-separator mt-3"></div>
     <div class="navi-footer  px-8 py-5">
         <a href="{{ route('logout') }}" id="logout_button" target="_self"
-            class="btn btn-light-primary font-weight-bold"> {{ __('teststs') }}</a>
+            class="btn btn-light-primary font-weight-bold"> {{ __('Logout') }}</a>
 
         <form id="logout_form" action="{{ route('logout') }}" method="POST" style="display: none;">
             @csrf
